@@ -10,7 +10,7 @@ Follow this steps :
 
 4. pkg install git
 
-5. git clone https://github.com/azr555secret/me
+5. git clone https://github.com/azr-555-secret/me
 
 6. cd me
 
