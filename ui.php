@@ -3,7 +3,7 @@ date_default_timezone_set('Asia/Jakarta');
 include "func.php";
 
 for($a=1;$a<=21;$a++) {
-	echo color("yellow"," *")."\n";
+	echo color("yellow"," *");
 	sleep(1);
 }
 
