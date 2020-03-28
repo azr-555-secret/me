@@ -12,15 +12,15 @@ echo color("green","     *       "); echo color("nevy","Date : ".date('d-m-Y | H
 echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n\n";
 
 echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
-echo color("green","     *                   "); echo color("purple","AUTO CREATE ACCOUNT"); echo color("green","                  * ")."\n";
+echo color("green","     *           "); echo color("purple","AUTO CREATE ACCOUNT"); echo color("green","           * ")."\n";
 echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
 
 echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
-echo color("green","     *                   "); echo color("purple","AUTO CLAIM VOUCHERS"); echo color("green","                  * ")."\n";
+echo color("green","     *           "); echo color("purple","AUTO CLAIM VOUCHERS"); echo color("green","           * ")."\n";
 echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
 
 echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
-echo color("green","     *                   "); echo color("purple","AUTO SET PIN"); echo color("green","                  * ")."\n";
+echo color("green","     *               "); echo color("purple","AUTO SET PIN"); echo color("green","               * ")."\n";
 echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
 
 echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
