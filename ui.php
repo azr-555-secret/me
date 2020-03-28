@@ -12,4 +12,5 @@ echo color("green"," *       "); echo color("nevy","Date : ".date('d-m-Y | H:i:s
 echo color("green"," * * * * * * * * * * * * * * * * * * * * * * ")."\n\n";
 echo color("purple"," * * * * * [ AUTO CREATE ACCOUNT ] * * * * *")."\n";
 echo color("purple"," * * * * * [ AUTO CLAIM VOUCHERS ] * * * * *")."\n";
-echo color("purple"," * * * * [ AUTO SET PIN ] * * * *")."\n";
+echo color("purple","     * * * * * [ AUTO SET PIN ] * * * * *")."\n";
+echo color("green","* * * * *"); echo color("nevy","[ DONE ]"); echo color("green","* * * * *")."\n";
