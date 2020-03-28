@@ -15,5 +15,5 @@ echo color("purple"," * * * * * [ AUTO CLAIM VOUCHERS ] * * * * *")."\n";
 echo color("purple","     * * * * * [ AUTO SET PIN ] * * * * *")."\n";
 
 echo color("green"," * * * * * * * * * * * * * * * * * * * * * * ")."\n";
-echo color("green"," *           "); echo color("nevy","[ DONE ]"); echo color("green","           * ")."\n";
+echo color("green"," *                "); echo color("nevy","[ DONE ]"); echo color("green","                * ")."\n";
 echo color("green"," * * * * * * * * * * * * * * * * * * * * * * ")."\n";
