@@ -53,17 +53,17 @@ echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
 			echo color("green","+] Register success");
 			$token = getStr('"access_token":"','"',$verif);
 			$uuid = getStr('"resource_owner_id":',',',$verif);
-			echo "\n".color("yellow","+] Your access token : ".$token."\n");
+			echo "\n".color("yellow","+] Your access token : ".$token."\n\n");
 			save("token.txt",$token);
 				
 			echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
 			echo color("green","     *           "); echo color("purple","AUTO CLAIM VOUCHERS"); echo color("green","           * ")."\n";
 			echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
-			echo "\n".color("yellow","!] Claim Voc Go Food");
-			echo "\n".color("yellow","!] Please wait");
+			echo color("yellow","!] Claim Voc")."\n";
+			echo color("yellow","!] Please wait");
 			for($a=1;$a<=5;$a++) {
 				echo color("yellow",".");
-				sleep(15);
+				sleep(3);
 			}
 			sleep(3);
 			$gocar = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD090320A"}');
@@ -109,7 +109,7 @@ echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
 			$expired10 = getStr1('"expiry_date":"','"',$cekvoucher,'10');
 			
 			setpin:
-			echo "\n";
+			echo "\n\n";
 			echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
 			echo color("green","     *               "); echo color("purple","AUTO SET PIN"); echo color("green","              * ")."\n";
 			echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
@@ -119,7 +119,7 @@ echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
 			$otpsetpin = trim(fgets(STDIN));
 			$verifotpsetpin = request("/wallet/pin", $token, $data2, null, $otpsetpin, $uuid);
 			echo $verifotpsetpin ."\n";
-			echo color("green","+] Your PIN is Activated")."\n";
+			echo color("green","+] Your PIN is Activated")."\n\n";
 			echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
 			echo color("green","     *                   "); echo color("purple","DONE"); echo color("green","                  * ")."\n";
 			echo color("green","     * * * * * * * * * * * * * * * * * * * * * * ")."\n";
