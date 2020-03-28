@@ -2,6 +2,10 @@
 date_default_timezone_set('Asia/Jakarta');
 include "func.php";
 
+for($a=1;$a<=21;$a++) {
+	echo color("yellow"," *");
+}
+
 echo color("green"," * * * * * * * * * * * * * * * * * * * * * ")."\n";
 echo color("green"," *        "); echo color("purple","[ AUTO CREATE ACCOUNT ]"); echo color("green","        * ")."\n";
 echo color("green"," *        "); echo color("purple","[ AUTO CLAIM VOUCHERS ]"); echo color("green","        * ")."\n";
