@@ -4,7 +4,8 @@ include "func.php";
 
 for($a=1;$a<=21;$a++) {
 	echo color("yellow"," *");
-	sleep(1);
+	sleep(0.1);
+	echo "\n";
 }
 
 echo color("green"," * * * * * * * * * * * * * * * * * * * * * ")."\n";
